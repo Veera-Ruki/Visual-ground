@@ -131,7 +131,7 @@ def visual_grounding(Image, Text):
     sample = utils.apply_to_sample(apply_half, sample) if use_fp16 else sample
     with torch.no_grad():
         result, scores = eval_step(task, generator, models, sample)
-    img = cv2.cvtColor(np.asarray(Image), cv2.COLOR_RGB2BGR)
+    img = np.asarray(Image)
     cv2.rectangle(
         img,
         (int(result[0]["box"][0]), int(result[0]["box"][1])),
