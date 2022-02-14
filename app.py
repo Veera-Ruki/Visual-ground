@@ -148,7 +148,9 @@ description = "Gradio Demo for OFA-Visual_Grounding. Upload your own image or cl
               "Then click \"Submit\" and wait for the result of grounding. "
 article = "<p style='text-align: center'><a href='https://github.com/OFA-Sys/OFA' target='_blank'>OFA Github " \
           "Repo</a></p> "
-examples = [['pokemons.jpg', 'a blue turtle-like pokemon with round head']]
+examples = [['pokemons.jpg', 'a blue turtle-like pokemon with round head'],
+            ['one_piece.jpeg', 'a man in a straw hat and a red dress'],
+            ['flowers.jpg', 'a white vase and pink flowers']]
 io = gr.Interface(fn=visual_grounding, inputs=[gr.inputs.Image(type='pil'), "textbox"],
                   outputs=gr.outputs.Image(type='numpy'),
                   title=title, description=description, article=article, examples=examples,
