@@ -1,8 +1,8 @@
 ---
 title: OFA-Visual_Grounding
-emoji: 🖼
-colorFrom: red
-colorTo: indigo
+emoji: 
+colorFrom: blue
+colorTo: green
 sdk: gradio
 app_file: app.py
 pinned: true
