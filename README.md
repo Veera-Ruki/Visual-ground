@@ -1,5 +1,5 @@
 ---
-title: OFA-Image_Caption
+title: OFA-Visual_Grounding
 emoji: 🖼
 colorFrom: red
 colorTo: indigo
