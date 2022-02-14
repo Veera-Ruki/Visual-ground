@@ -1,12 +1,26 @@
 ---
-title: OFA Visual_Grounding
-emoji: 😻
-colorFrom: pink
-colorTo: gray
+title: OFA-Image_Caption
+emoji: 🖼
+colorFrom: red
+colorTo: indigo
 sdk: gradio
 app_file: app.py
-pinned: false
-license: apache-2.0
+pinned: true
 ---
+# Configuration
+`title`: _string_
+OFA Image Caption
+`emoji`: _string_
+🖼
+`colorFrom`: _string_
+red
+`colorTo`: _string_
+indigo
+`sdk`: _string_
+gradio
+`app_file`: _string_
+app.py
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces#reference
+
+`pinned`: _boolean_
+true
