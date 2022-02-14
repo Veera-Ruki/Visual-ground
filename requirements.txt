@@ -1,2 +1,2 @@
 torchvision
-opencv-python
+opencv-python-headless
