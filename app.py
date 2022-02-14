@@ -126,7 +126,7 @@ def apply_half(t):
 
 # Function for visual grounding
 def visual_grounding(Image, Text):
-    sample = construct_sample(Image, Text)
+    sample = construct_sample(Image, Text.lower())
     sample = utils.move_to_cuda(sample) if use_cuda else sample
     sample = utils.apply_to_sample(apply_half, sample) if use_fp16 else sample
     with torch.no_grad():
