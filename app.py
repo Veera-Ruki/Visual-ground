@@ -144,7 +144,7 @@ def visual_grounding(Image, Text):
 
 title = "OFA-Visual_Grounding"
 description = "Gradio Demo for OFA-Visual_Grounding. Upload your own image or click any one of the examples, " \
-              "and write a description about a certain object. " \
+              "and write a description about a certain object.  " \
               "Then click \"Submit\" and wait for the result of grounding. "
 article = "<p style='text-align: center'><a href='https://github.com/OFA-Sys/OFA' target='_blank'>OFA Github " \
           "Repo</a></p> "
