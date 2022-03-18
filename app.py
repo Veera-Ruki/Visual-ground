@@ -1,6 +1,6 @@
 import os
 
-os.system('git clone -b v0.11.0 https://github.com/pytorch/fairseq.git; cd fairseq;'
+os.system('git clone -b normformer-public https://github.com/pytorch/fairseq.git; cd fairseq;'
           'pip install --use-feature=in-tree-build ./; cd ..')
 os.system('ls -l')
 
