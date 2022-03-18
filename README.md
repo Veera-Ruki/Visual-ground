@@ -1,7 +1,7 @@
 ---
 title: OFA-Visual_Grounding
 emoji: 👀
-colorFrom: blue
+colorFrom: yellow
 colorTo: green
 sdk: gradio
 app_file: app.py
