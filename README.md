@@ -5,7 +5,7 @@ colorFrom: yellow
 colorTo: green
 sdk: gradio
 app_file: app.py
-pinned: true
+pinned: false
 ---
 # Configuration
 `title`: _string_
@@ -23,4 +23,4 @@ app.py
 
 
 `pinned`: _boolean_
-true
+false
