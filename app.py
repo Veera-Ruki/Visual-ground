@@ -1,7 +1,7 @@
 import os
 
 os.system('cd fairseq;'
-          'pip install --use-feature=in-tree-build ./; cd ..')
+          'pip install ./; cd ..')
 os.system('ls -l')
 
 import torch
