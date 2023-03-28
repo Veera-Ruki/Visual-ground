@@ -155,4 +155,4 @@ io = gr.Interface(fn=visual_grounding, inputs=[gr.inputs.Image(type='pil'), "tex
                   outputs=gr.outputs.Image(type='numpy'),
                   title=title, description=description, article=article, examples=examples,
                   allow_flagging=False, allow_screenshot=False)
-io.launch(cache_examples=True)
+io.launch()
